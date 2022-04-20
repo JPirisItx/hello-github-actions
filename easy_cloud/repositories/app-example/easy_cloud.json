@@ -1,0 +1,42 @@
+{
+    "tags": {
+        "department": "",
+        "manteinancewindows": "",
+        "businessunit": "aplicaciones an\u00e1lisis guiado",
+        "businesscontact": "lauragcos@inditex.com",
+        "managedby": "lauragcos@inditex.com",
+        "costcenter": "data",
+        "project": "redeauia",
+        "app": "",
+        "srv": "",
+        "dataclassification": "Internal",
+        "datacloud": "",
+        "compliance": "None of the above",
+        "schedule": "",
+        "expirationdate": "",
+        "environment": "dev"
+    },
+    "tf_provider": [
+        "azure"
+    ],
+    "environments": [
+        "dev"
+    ],
+    "location": {
+        "name": "westeurope",
+        "short_name": "weu1"
+    },
+    "tf_backend": "azure",
+    "modules": [
+        {
+            "cloud": "sisifo",
+            "name": "sisifo",
+            "path": "sisifo_init",
+            "properties": {
+                "repo_init_automerge": "false"
+            }
+        }
+    ],
+    "repository_name": "app-redeauia",
+    "sisifo_version": "1.5.0"
+}
