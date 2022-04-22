@@ -1,0 +1,12 @@
+{
+"components": [
+  {
+    "name":"function",
+    "type":"component",
+    "feature":"azure",
+    "description":"Accelerate and simplify serverless application development",
+    "version": "1.5.0",
+    "doc_url": "https://github.com/inditex/iac-sisifomodules/blob/main/azure/function/README.md",
+    "backstage_template_url": "https//asassaas"
+  }]
+}
